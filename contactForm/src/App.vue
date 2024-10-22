@@ -1,11 +1,13 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import FormComponent from './components/formComponent.vue';
 </script>
 
 <template>
-  <h1>Lista de contactos</h1>
-    <HelloWorld/>
+  <div id="app">
+    <FormComponent />
+  </div>
 </template>
+
 
 <style scoped>
 </style>
